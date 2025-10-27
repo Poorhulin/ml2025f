@@ -215,7 +215,7 @@
 <script>
   $(function() {
     var f = function() {
-      $(this).next().text($(this).is(':checked') ? '做完' : '未做完');
+      $(this).next().text($(this).is(':checked') ? '未做完' : '做完');
     };
     $('input').change(f).trigger('change');
   });
@@ -257,6 +257,7 @@
 
 </body>
 </html>
+
 
 
 
